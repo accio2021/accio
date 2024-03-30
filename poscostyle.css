@@ -493,8 +493,12 @@ nav ul li a:hover::after{
     }
 
     .video .video-container {
-        margin-top: 2rem;
-        height: 40vw;
+        height: 75%;
+        width: 100%;
+    }
+    
+    .video-container .container {
+        height: 35vw;
         width: 100%;
     }
 
