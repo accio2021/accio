@@ -465,7 +465,12 @@ nav ul li a:hover::after{
     }
 
     .video .video-container {
-        height: 40vw;
+        height: 250px;
+        width: 100%;
+    }
+    
+    .video-container .container {
+        height: 100%;
         width: 100%;
     }
 
@@ -519,8 +524,12 @@ nav ul li a:hover::after{
     }
 
     .video .video-container {
-        margin-top: 2rem;
-        height: 15vh;
+        height: 250px;
+        width: 100%;
+    }
+    
+    .video-container .container {
+        height: 100%;
         width: 100%;
     }
 
