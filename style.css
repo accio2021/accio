@@ -533,10 +533,6 @@ section {
     width: 100%;
 }
 
-.anr-content .award:hover a {
-    display: block;
-}
-
 /*--------------pg--------------*/
 .pg {
     position: relative;
