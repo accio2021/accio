@@ -857,7 +857,7 @@ section {
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
     section {
         padding: 10rem 4% 2rem;
     }
