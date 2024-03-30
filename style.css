@@ -517,6 +517,8 @@ section {
     color: #91cae9;
 }
 
+
+
 .anr-content .award::before {
     content: ' ';
     position: absolute;
@@ -531,6 +533,10 @@ section {
 
 .anr-content .award:hover::before {
     width: 100%;
+}
+
+.anr-content .award:hover a {
+    display: block;
 }
 
 /*--------------pg--------------*/
