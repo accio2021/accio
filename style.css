@@ -582,9 +582,9 @@ section {
 /*--------------contact--------------*/
 .contact {
     position: relative;
-    min-height: auto;
+    min-height: 100vh;
     z-index: 2;
-    padding-bottom: 3rem;
+    padding-bottom: 8rem;
 }
 
 .contact form {
@@ -886,6 +886,11 @@ section {
         text-align: center;
     }
 
+    #why-exist {
+        height: 80vh;
+        width: 80vw;
+    }
+
     .anr .heading {
         margin: 5rem;
     }
@@ -995,7 +1000,7 @@ section {
 
 
     #why-exist {
-        height: 120vh;
+        height: 80vh;
         width: 110vw;
     }
 
