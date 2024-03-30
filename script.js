@@ -12,6 +12,31 @@ var tabcontents = document.getElementsByClassName("tab-contents");
         document.getElementById(tabname).classList.add("active-tab");
     }
 
+var whoContents = document.querySelectorAll(".who-content");
+whoContents.forEach(function(content) {
+    content.addEventListener('click', function() {
+        whoContents.forEach(function(item) {
+            if (item !== content && item.classList.contains('active')) {
+                item.classList.remove('active');
+            }
+        });
+        this.classList.toggle('active');
+    });
+});
+
+var whatContents = document.querySelectorAll(".what-content");
+whatContents.forEach(function(content) {
+    content.addEventListener('click', function() {
+        whatContents.forEach(function(item) {
+            if (item !== content && item.classList.contains('active')) {
+                item.classList.remove('active');
+            }
+        });
+        this.classList.toggle('active');
+    });
+});
+
+    
 var sections = document.querySelectorAll('section');
 var navLinks = document.querySelectorAll('header nav a');
 
