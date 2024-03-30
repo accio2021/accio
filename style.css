@@ -535,26 +535,6 @@ section {
     color: #91cae9;
 }
 
-.anr-content .award::before {
-    content: ' ';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background: rgba(12, 81, 101, 0.47);
-    z-index: -1;
-    transition: .5s ease-in-out;
-}
-
-.anr-content .award:hover::before {
-    width: 100%;
-}
-
-.anr-content .award:hover a {
-    display: block;
-}
-
 /*--------------pg--------------*/
 .pg {
     position: relative;
