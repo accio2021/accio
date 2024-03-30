@@ -360,6 +360,14 @@ section {
     display: block;
 }
 
+#who-we .who-content.active {
+    transform: scale(1.1);
+}
+
+#who-we .who-content.active p {
+    display: block;
+}
+
 #what-mess {
     align-items: flex-start;
     justify-content: center;
@@ -448,6 +456,16 @@ section {
     position: relative;
 }
 
+#what-mess .what-content.active {
+    transform: scale(1.1);
+}
+
+#what-mess .what-content.active a,
+#what-mess .what-content.active p {
+    display: block;
+    position: relative;
+}
+
 .tab-contents {
     display: none;
 }
@@ -516,8 +534,6 @@ section {
 .anr-content .award a {
     color: #91cae9;
 }
-
-
 
 .anr-content .award::before {
     content: ' ';
@@ -890,21 +906,8 @@ section {
         text-align: center;
     }
 
-    #what-mess .what-content .what p,
-    #who-we .who-content .people p {
-        display: flex;
-    }
-    
-    #what-mess .what-content .what a {
-        display: block;
-    }
-
     .anr .heading {
         margin: 5rem;
-    }
-
-    .anr-content a {
-        display: block;
     }
 
     #what-mess .what-list,
