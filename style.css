@@ -513,17 +513,8 @@ section {
     font-size: 1.5rem;
 }
 
-.anr-content .award p span {
+.anr-content .award a {
     color: #91cae9;
-}
-
-.anr-content a {
-    text-decoration: underline;
-    color: #ddf2fd;
-    font-size: 1.5rem;
-    margin-top: 2rem;
-    text-align: left;
-    display: none;
 }
 
 .anr-content .award::before {
