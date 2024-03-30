@@ -152,7 +152,7 @@ section {
     transform: translateX(-400%);
     animation: h1slidein 0.5s ease-in-out forwards;
     animation-delay: 0.3s;
-    font-size: 18vh;
+    font-size: 18rem;
     font-weight: 700; 
     color: transparent;
     -webkit-text-stroke: 2.5px #ddf2fd;
@@ -164,7 +164,7 @@ section {
     margin-left: 4rem;
     margin-bottom: 3rem;
     transform: translateX(-400%);
-    font-size: 2.5vh;
+    font-size: 2.4rem;
     font-weight: 400;
     color: #eef5ff;
     animation: textslidein 0.5s ease-in-out forwards;
