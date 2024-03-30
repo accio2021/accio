@@ -94,9 +94,8 @@ nav ul li a:hover::after{
     background-size: cover;  
     background-position: center;
     overflow: hidden;
-    height: 60rem;
-    width: 120rem;
-    border-radius: 5rem;
+    height: 100%;
+    width: 100%;
     position: fixed;
     display: flex;
     align-items: center;
